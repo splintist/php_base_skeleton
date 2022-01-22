@@ -1,0 +1,26 @@
+{
+    "name": "splintist/app",
+    "description": "Description",
+    "type": "tbd",
+    "license": "tbd",
+    "authors": [
+        {
+            "name": "tbd",
+            "email": "tbd@me.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "splintist\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "splintist\\test\\": "test/"
+        }
+    }
+}
